@@ -1,6 +1,6 @@
 # SQL
 
-### Employees
+### Employee Database Data Exploration
 Used SQL and Tableau to create visualizations from a relational database that contains information about the employees of a company between 1990 to 2002. Broke this down into 4 subproblems: <br>
 1. Provide a breakdown between the male and female employees working in the company each year, starting from 1990. Visualization: bar chart
 2. Compare the number of male managers to the number of female managers from different departments for each year, starting from 1990. Visualization: area chart
