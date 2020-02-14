@@ -1,9 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# 
+# # Hubway Database Exploratory Analysis
 
-# ### Import Hubway database
+# Database from the bike-sharing service Hubway (data on over 1.5 million trips made with the service). Used Python to run SQL code to make it easier to display results on Jupyter Notebook. 
+
+# ## Import Hubway database
 
 # In[1]:
 
@@ -15,9 +17,9 @@ def run_query(query):
     return pd.read_sql_query(query,db)
 
 
-# # Pull data from the trips table
+# ## Pull data from the trips table
 
-# ### What was the duration of the longest trip?
+# #### What was the duration of the longest trip?
 
 # In[2]:
 
@@ -68,7 +70,7 @@ ORDER BY duration DESC;
 run_query(query)
 
 
-# ### How many trips were taken by 'registered' users?
+# #### How many trips were taken by 'registered' users?
 
 # In[6]:
 
@@ -81,7 +83,7 @@ WHERE sub_type = "Registered";
 run_query(query)
 
 
-# ### What was the average trip duration?
+# #### What was the average trip duration?
 
 # In[7]:
 
@@ -93,7 +95,7 @@ FROM trips;
 run_query(query)
 
 
-# ### Do registered or casual users take longer trips?
+# #### Do registered or casual users take longer trips?
 
 # In[8]:
 
@@ -106,7 +108,7 @@ GROUP BY sub_type;
 run_query(query)
 
 
-# ### Which bike was used for the most trips?
+# #### Which bike was used for the most trips?
 
 # In[9]:
 
@@ -121,7 +123,7 @@ LIMIT 1;
 run_query(query)
 
 
-# ### What is the average duration of trips by users over the age of 30?
+# #### What is the average duration of trips by users over the age of 30?
 
 # In[10]:
 
@@ -133,7 +135,7 @@ WHERE (2017 - birth_date) > 30;
 run_query(query)
 
 
-# # Include data from the stations table
+# ## Include data from the stations table
 
 # In[11]:
 
@@ -145,7 +147,7 @@ LIMIT 5;
 run_query(query)
 
 
-# ### Which station is the most frequent starting point?
+# #### Which station is the most frequent starting point?
 
 # In[12]:
 
@@ -159,7 +161,7 @@ LIMIT 5;
 run_query(query)
 
 
-# ### Which stations are most frequently used for round trips?
+# #### Which stations are most frequently used for round trips?
 
 # In[13]:
 
@@ -176,7 +178,7 @@ LIMIT 5;
 run_query(query)
 
 
-# ### How many trips start and end in different municipalities?
+# #### How many trips start and end in different municipalities?
 
 # In[14]:
 
@@ -192,7 +194,7 @@ WHERE start.municipality <> end.municipality;
 run_query(query)
 
 
-# ### How many trips incurred additional fees (lasted longer than 30 minutes)?
+# #### How many trips incurred additional fees (lasted longer than 30 minutes)?
 
 # In[24]:
 
@@ -205,7 +207,7 @@ WHERE duration > 1800;
 run_query(query)
 
 
-# ### Which bike was used for the longest total time?
+# #### Which bike was used for the longest total time?
 
 # In[63]:
 
@@ -220,7 +222,7 @@ LIMIT 5;
 run_query(query)
 
 
-# ### Did registered or casual users take more round trips?
+# #### Did registered or casual users take more round trips?
 
 # In[62]:
 
@@ -235,7 +237,7 @@ GROUP BY sub_type
 run_query(query)
 
 
-# ### Which municipality had the longest average duration?
+# #### Which municipality had the longest average duration?
 
 # In[76]:
 
