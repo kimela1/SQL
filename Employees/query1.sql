@@ -1,3 +1,4 @@
+-- Query to fetch calendar_year, gender and num_of_employees
 SELECT 
     YEAR(d.from_date) AS calendar_year,
     e.gender,

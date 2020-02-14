@@ -1,3 +1,5 @@
+-- Query to fetch gender, dept_name, salary, calendar_year from t_employees, 
+-- t_departments, t_salaries, and t_dept_emp
 SELECT 
     e.gender,
     d.dept_name,

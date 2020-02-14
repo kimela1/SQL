@@ -1,3 +1,6 @@
+-- SQL stored procedure to obtain the average male and female salary
+-- per department within a certain salary range.
+-- Desired output: gender, dept_name, salary
 DROP PROCEDURE IF EXISTS filter_salary;
 
 DELIMITER $$

@@ -1,3 +1,5 @@
+-- Query to fetch dept_name, gender, emp_no, from_date, to_date,
+-- calendar_year and active
 SELECT 
     d.dept_name,
     ee.gender,
@@ -24,4 +26,6 @@ FROM
     t_departments d ON dm.dept_no = d.dept_no
         JOIN
     t_employees ee ON dm.emp_no = ee.emp_no
-ORDER BY dm.emp_no , calendar_year;SELECT      * FROM     t_departments LIMIT 0, 1000
+ORDER BY dm.emp_no , calendar_year;
+
+SELECT      * FROM     t_departments LIMIT 0, 1000
