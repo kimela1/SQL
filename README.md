@@ -15,3 +15,6 @@ Database from the bike-sharing service Hubway (data on over 1.5 million trips ma
 
 ### Planets and People
 Query practice
+
+### SQL Zoo
+My answers to [SQL Zoo](https://sqlzoo.net/), a "learn-by-doing" SQL course.
