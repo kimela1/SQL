@@ -1,4 +1,5 @@
 -- world(name, continent, area, population, gdp)
+-- Using SELECT statements within SELECT statements to perform more complex queries
 
 -- 1. List each country name where the population is larger than that of 'Russia'.
 SELECT name FROM world
