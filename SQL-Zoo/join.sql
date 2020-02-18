@@ -1,4 +1,5 @@
 -- Use INNER JOIN to use data from two or more tables
+-- Database consists of three tables game, eteam, and goal
 
 -- 1. Modify it to show the matchid and player name for all goals scored by Germany. To identify German players, check for: teamid = 'GER'
 SELECT matchid, player FROM goal 
