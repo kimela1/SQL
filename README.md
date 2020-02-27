@@ -10,6 +10,13 @@ Used SQL and Tableau to create visualizations from a relational database that co
 ### Films
 Query practice
 
+### Hotel Booking Demand
+This data set from [Kaggle](https://www.kaggle.com/jessemostipak/hotel-booking-demand) contains booking information for a city hotel and a resort hotel, and includes information such as when the booking was made, length of stay, the number of adults, children, and/or babies, and the number of available parking spaces, among other things.<br>
+* Created table in MySQL to import data from CSV to MySQL
+* Cleaned data in SQL to begin analysis
+* Exploratory data analysis: When is the busiest time for hotels? When should I book a hotel room if I want to avoid the crowd? Exploring these questions and drawing conclusions from the data.
+* Recommendations: What recommendations can be given based on the analysis made with this data?
+
 ### Hubway
 Database from the bike-sharing service Hubway (data on over 1.5 million trips made with the service). Used Python to run SQL code to make it easier to display results on Jupyter Notebook.
 
