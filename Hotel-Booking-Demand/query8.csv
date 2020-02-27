@@ -1,0 +1,13 @@
+arrival_date_month,AVG(days_in_waiting_list)
+April,3.0124
+August,0.3987
+December,3.0075
+February,0.7649
+January,2.5264
+July,0.2299
+June,1.9551
+March,1.3770
+May,4.3391
+November,1.7677
+October,4.5988
+September,4.2219

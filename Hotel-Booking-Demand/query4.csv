@@ -1,0 +1,5 @@
+hotel,is_canceled,COUNT(is_canceled)
+"City Hotel",0,46228
+"City Hotel",1,33102
+"Resort Hotel",0,28938
+"Resort Hotel",1,11122

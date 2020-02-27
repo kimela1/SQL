@@ -1,0 +1,13 @@
+arrival_date_month,avg(children+adults+babies)
+April,1.9839
+August,2.2174
+December,1.9463
+February,1.8963
+January,1.7750
+July,2.1805
+June,1.9637
+March,1.8820
+May,1.9045
+November,1.7386
+October,1.8857
+September,1.9381
