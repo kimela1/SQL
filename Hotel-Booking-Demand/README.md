@@ -11,7 +11,7 @@ View dashboard on Tableau public [here](https://public.tableau.com/profile/elain
 
 ## Bookings
 * August had the most bookings (13,877).
-* After August, the number of bookings starts a downward trend to December.
+* After August, the number of bookings started a downward trend to December.
 * November and December had a similar amount of bookings (both around 6,700).
 * Although August had the most bookings, it did not have the highest average waiting time. Rather, the opposite. July and August had the lowest average waiting times for bookings.
 * July and September had similar average lead times (around 136 days), which means guests booked their rooms for July and September on average 136 days in advance.
