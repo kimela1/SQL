@@ -8,4 +8,4 @@ View dashboard on Tableau public [here](https://public.tableau.com/profile/elain
 * Average annual salary has steadily increased over time.
 * The average salary of male and female employees per department since 1990 is very similar. The biggest difference is about $1,000, which is not really a significant amount.
 
-![Dashboard](https://github.com/kimela1/SQL/blob/master/Employees/Dashboard.png)
+![Dashboard](https://github.com/kimela1/SQL/blob/master/Employees/Employees-Dashboard.png)
